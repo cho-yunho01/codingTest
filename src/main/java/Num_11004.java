@@ -37,13 +37,13 @@ public class Num_11004 {
         int m = (s+e) / 2;
         swap(a,s,m);
         int pivot = a[s];
-        int i = s;
+        int i = s+1;
         int j = e;
         while(i < j){
             while(a[j] > pivot){
                 j--;
             }
-            while(i < j && a[i] <= pivot){
+            while(i < j && a[i] < pivot){
                 i++;
             }
 
