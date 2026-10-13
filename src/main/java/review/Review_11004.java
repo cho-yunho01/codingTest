@@ -45,6 +45,7 @@ public class Review_11004 {
     public static int partition(int[] a,int s,int e){
         int m = (s+e) / 2;
         swap(a,s,m);
+
         int pivot = a[s];
         int i = s; // 크기가 2개일때 s+1로 하면 값이 이상해짐 그래서 i는 s로 둬야함
         int j = e;
