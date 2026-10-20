@@ -3,7 +3,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class Num1517 {
+public class Num_1517 {
     static int[] a;
     static int[] tmp;
     static int result;
